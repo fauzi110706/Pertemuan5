@@ -1,0 +1,39 @@
+* { box-sizing: border-box; }
+.auth-page {
+ min-height: 100vh;
+ display: grid;
+ place-items: center;
+ padding: 24px;
+}
+.login-card {
+ width: 100%;
+ max-width: 420px;
+ padding: 32px;
+ border: 1px solid #d1d5db;
+ border-radius: 16px;
+ background: #ffffff;
+}
+.form-group { margin-bottom: 18px; }
+.login-card label {
+ display: block;
+ margin-bottom: 6px;
+ font-weight: 700;
+}
+.login-card input {
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #cbd5e1;
+ border-radius: 8px;
+}
+.login-card button {
+ width: 100%;
+ padding: 12px 16px;
+ border: 0;
+ border-radius: 8px;
+ cursor: pointer;
+}
+.message {
+ padding: 10px;
+ border: 1px solid #d1d5db;
+ margin-bottom: 16px;
+}
